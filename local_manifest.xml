@@ -5,11 +5,12 @@
           fetch="git://github.com/" />
            
   <!-- CM replacements -->
-  <remove-project name="CyanogenMod/hardware/qcom/display-caf" />
+  <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
     
   <!-- Local projects -->
   <project path="hardware/atheros/wifi/libs" name="ivan19871002/android_hardware_atheros_wifi_libs" remote="gh" revision="cm-10.1" />
-  <project path="hardware/qcom/display-legacy" name="ivan19871002/android_hardware_qcom_display" remote="gh" revision="cm-10.1-new" />
+  <project path="hardware/qcom/display-legacy" name="Legacy-dev/android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.1" />
 
   <!-- HuaWei C8813 -->
   <project path="device/huawei/c8813" name="ivan19871002/android_device_huawei_c8813" remote="gh" revision="cm-10.1" />
@@ -21,11 +22,11 @@
 
   <!-- HuaWei Msm7x30 -->
   <project path="device/huawei/u8860" name="ivan19871002/android_device_huawei_u8860" remote="gh" revision="cm-10.1" />
-  <project path="device/huawei/u8800pro" name="ivan19871002/android_device_huawei_u8800pro" remote="gh" revision="cm-10.1" />
-  <project path="device/huawei/msm7x30-common" name="ivan19871002/android_device_huawei_msm7x30-common" remote="gh" revision="cm-10.1" />
-  <project path="kernel/huawei/honor" name="ivan19871002/android_kernel_huawei_honor" remote="gh" revision="cm-10.1" />
+  <project path="device/huawei/u8800pro" name="Legacy-dev/android_device_huawei_u8800pro" remote="gh" revision="cm-10.1" />
+  <project path="device/huawei/msm7x30-common" name="Legacy-dev/android_device_huawei_msm7x30-common" remote="gh" revision="cm-10.1" />
+  <project path="kernel/huawei/honor" name="Legacy-dev/android_kernel_huawei_honor" remote="gh" revision="cm-10.1" />
 
   <!-- HuaWei Vendor -->
-  <project path="vendor/huawei" name="ivan19871002/android_vendor_huawei" remote="gh" revision="cm-10.1" />
+  <project path="vendor/huawei" name="Legacy-dev/proprietary_vendor_huawei" remote="gh" revision="cm-10.1" />
   
 </manifest>
